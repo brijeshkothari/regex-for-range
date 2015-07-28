@@ -3,6 +3,8 @@ var regex = require('./regex_for_numeric_range.js'),
 	max = 1009;
 
 exports.regexGen = function(min_, max_){
-	console.log("Min - Max : ("+min+"-"+max+") : " , regex.regex_for_range(1000, 1009));
+	if(!min_ && !max_){
+		console.log("Min - Max : ("+min+"-"+max+") : " , regex.regex_for_range(1000, 1009));
+	}
 	return regex.regex_for_range(min_, max_);
 }
