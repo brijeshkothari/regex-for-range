@@ -1,6 +1,7 @@
 var regex = require('./regex_for_numeric_range.js');
 
-module.exports = function(min, max){
-        console.log(regex.regex_for_range(min, max));
-	return regex.regex_for_range(min, max);
-}
+console.log("regex : ", regex);
+console.log(regex.regex_for_range(1000, 1009));
+
+
+console.log("regex : ", regex);
