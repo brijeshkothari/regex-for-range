@@ -14,7 +14,7 @@ String.prototype.format = function() {
 };
 
 // Main function
-function regex_for_range(min_, max_){
+exports.regex_for_range = function(min_, max_){
     positive_subpatterns = [];
     negative_subpatterns = [];
     if (max_ >= 0){
