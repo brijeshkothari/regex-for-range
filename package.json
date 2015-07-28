@@ -1,8 +1,8 @@
 {
-  "name": "regex-for-range",
-  "version": "1.0.4",
+  "name": "regex-for-numeric-range",
+  "version": "1.0.5",
   "description": "regex-for-range is npm library for getting instant regex for numeric range with same numeric length",
-  "main": "regex_for_numeric_range.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
