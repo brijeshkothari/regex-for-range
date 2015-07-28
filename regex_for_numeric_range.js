@@ -1,5 +1,4 @@
 /*
-import math
 # coding=utf8 positive_subpatterns only not includes negative patterns
 #  Author : Brijesh Kothari
 #  Reference taken from https://github.com/dimka665/range-regex/blob/master/range_regex/range_regex.py
@@ -27,7 +26,8 @@ function regex_for_range(min_, max_){
         regex+=val+"|";
     });
     regex = regex.substring(0, regex.length - 1);
-    console.log("regex : ", regex);
+    //console.log("regex : ", regex);
+    return regex;
 }
 
 // Splitting into multiple patterns
@@ -111,18 +111,18 @@ function range_to_pattern(start, stop){
 }
 
 //Examples  (minimum number, maximum numer)
-regex_for_range(111111, 456789);
-regex_for_range(1000, 1009);
-regex_for_range(1000, 1010);
-regex_for_range(1000, 1100);
-regex_for_range(1000, 1050);
-regex_for_range(1000, 1150);
-regex_for_range(1000, 1037);
-regex_for_range(1234, 5678);
-regex_for_range(2065, 2085);
-regex_for_range(111111, 999999);
-regex_for_range(42569,46589);
-regex_for_range(123456,123458);
-regex_for_range(111111, 999999);
-regex_for_range(123412, 902313);
-regex_for_range(455462, 926454);
+// regex_for_range(111111, 456789);
+// regex_for_range(1000, 1009);
+// regex_for_range(1000, 1010);
+// regex_for_range(1000, 1100);
+// regex_for_range(1000, 1050);
+// regex_for_range(1000, 1150);
+// regex_for_range(1000, 1037);
+// regex_for_range(1234, 5678);
+// regex_for_range(2065, 2085);
+// regex_for_range(111111, 999999);
+// regex_for_range(42569,46589);
+// regex_for_range(123456,123458);
+// regex_for_range(111111, 999999);
+// regex_for_range(123412, 902313);
+// regex_for_range(455462, 926454);

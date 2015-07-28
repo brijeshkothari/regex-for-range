@@ -1,0 +1,24 @@
+{
+  "name": "regex-for-range",
+  "version": "1.0.0",
+  "description": "regex-for-range is npm library for getting instant regex for numeric range with same numeric length",
+  "main": "regex_for_numeric_range.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brijeshkothari/regex-for-range.git"
+  },
+  "keywords": [
+    "regex-for-range",
+    "numeric range regex generator",
+    "min-max numeric range regex generator"
+   ],
+  "author": "Brijesh Kothari <brijesh.kothari@novanet.net> (http://novanet.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brijeshkothari/regex-for-range/issues"
+  },
+  "homepage": "https://github.com/brijeshkothari/regex-for-range#readme"
+}
