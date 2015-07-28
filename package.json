@@ -1,6 +1,6 @@
 {
   "name": "regex-for-range",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "regex-for-range is npm library for getting instant regex for numeric range with same numeric length",
   "main": "regex_for_numeric_range.js",
   "scripts": {

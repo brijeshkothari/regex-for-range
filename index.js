@@ -1,5 +1,5 @@
-var regex = require('./regex-for-range.js');
+var regex = require('./regex_for_numeric_range.js');
 
 exports.regexGen = function(min, max){
-	return regex(min, max);
+	return regex.regex_for_range(min, max);
 }
