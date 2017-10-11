@@ -13,6 +13,10 @@ String.prototype.format = function() {
   });
 };
 
+function uniqueFilter(value, index, self) { 
+    return self.indexOf(value) === index;
+}
+
 // Main function
 exports.regex_for_range = function(min_, max_){
     positive_subpatterns = [];
@@ -37,6 +41,7 @@ function split_to_patterns(min_, max_){
     start = min_;
     var tmp = [];
     tmp = split_to_ranges(min_, max_);
+	tmp = tmp.filter(uniqueFilter);
     for(var stop in tmp){
         subpatterns.push(range_to_pattern(start, tmp[stop]));
         start = tmp[stop] + 1;
@@ -125,4 +130,4 @@ function range_to_pattern(start, stop){
 // regex_for_range(123456,123458);
 // regex_for_range(111111, 999999);
 // regex_for_range(123412, 902313);
-// regex_for_range(455462, 926454);
+// regex_for_range(3493, 5765);
